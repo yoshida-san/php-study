@@ -1,20 +1,66 @@
 <?php
 
-// ここは説明しないよ
-$number = 1;
+// trueになるよ
+if(1 == "1") {
+    echo "true!";
+} else {
 
-switch ($number) {
-    case 0:
-        echo '$numberは0に等しい';
-        break;
-    case 1:
-        echo '$numberは1に等しい';
-        break;
-    case 2:
-        echo '$numberは2に等しい';
-        break;
-    default:
-       echo '$numberは0,1,2に等しくない';
+    echo "false...";
 }
 
+// falseになるよ
+if(1 === "1") {
+    echo "true!";
+} else {
+
+    echo "false...";
+}
+
+// falseになるよ
+if(1 != "1") {
+    echo "true!";
+} else {
+
+    echo "false...";
+}
+
+// trueになるよ
+if(1 !== "1") {
+    echo "true!";
+} else {
+
+    echo "false...";
+}
+
+// trueになるよ
+if(1 == true) {
+    echo "true!";
+} else {
+
+    echo "false...";
+}
+
+// falseになるよ
+if(1 === true) {
+    echo "true!";
+} else {
+
+    echo "false...";
+}
+
+// trueになるよ
+if("true" == true) {
+    echo "true!";
+} else {
+
+    echo "false...";
+}
+
+// falseになるよ
+if("true" === true) {
+    echo "true!";
+} else {
+
+    echo "false...";
+}
 ?>
