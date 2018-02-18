@@ -1,15 +1,20 @@
 <?php
 
 // ここは説明しないよ
-$name = "John Smith";
+$number = 1;
 
-// もし名前がJohn Smithなら
-if ($name == "John Smith") {
-    // 自己紹介をするよ
-    echo "I'm John Smith :)";
-} else {
-    // John Smithじゃないよ...
-    echo "I'm not John Smith :(";
+switch ($number) {
+    case 0:
+        echo "$numberは0に等しい";
+        break;
+    case 1:
+        echo "$numberは1に等しい";
+        break;
+    case 2:
+        echo "$numberは2に等しい";
+        break;
+    default:
+       echo "$numberは0,1,2に等しくない";
 }
 
 ?>
