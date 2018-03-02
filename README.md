@@ -5,6 +5,8 @@ PHP勉強用のリポジトリです。基本的な制御構文から始めて�
 
 コードは[PHP Sandbox](http://sandbox.onlinephpfunctions.com/ "PHP Sandbox")ででも動かしてみると良いと思うよ。環境構築は結構面倒だからね。
 
+少しPHPに興味が湧いてきたら[PHP The Right Way](http://ja.phptherightway.com/ "PHP The Right Way")も一読して欲しい。
+
 間違いやより良い書き方があれば是非教えてください:)
 
 ## 対象
